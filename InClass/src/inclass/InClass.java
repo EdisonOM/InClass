@@ -30,6 +30,9 @@ public class InClass {
         }
    Animal bob = new Animal("Roar");
    bob.speak();
+   List<Animal> myAnimals = new ArrayList();
+   myAnimals.add(new Animal ("meow"));
+   
     }
     }
     
