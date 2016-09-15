@@ -23,12 +23,12 @@ public class InClass {
     myFirstList.add("Apple");
    myFirstList.add("orange");
    myFirstList.add("green");
-    for (String s : myFirstList){
-        System.out.println(s);
+//    for (String s : myFirstList){
+//        System.out.println(s);
         for (int i = 0; i< myFirstList.size();i++){
          System.out.println(myFirstList.get(i));
         }
     }
     }
     
-}
+//}
