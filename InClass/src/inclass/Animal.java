@@ -14,5 +14,7 @@ public class Animal {
     public Animal(String mySound){
         this.mySound=mySound;
     }
-
+public void speak(){
+ System.out.println(this.mySound);
+}
 }
