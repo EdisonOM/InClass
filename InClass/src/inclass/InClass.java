@@ -28,6 +28,8 @@ public class InClass {
         for (int i = 0; i< myFirstList.size();i++){
          System.out.println(myFirstList.get(i));
         }
+   Animal bob = new Animal("Roar");
+   bob.speak();
     }
     }
     
